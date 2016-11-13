@@ -183,7 +183,7 @@ cat > /etc/shadowsocks.json<<-EOF
 }
 EOF
 
-wget ftp://joerv.gicp.net/miwifi/r3/shadowsocks_r3.tar.gz -P /tmp/
+wget https://github.com/ddtou/install-shadowsocks/blob/master/shadowsocks_r3.tar.gz?raw=true -P /tmp/
 echo -e "|\033[32m******************************\033[0m| \033[31m30%\033[0m"
 killall ss-redir &> /dev/null
 rm -rf /etc/dnsmasq.d/*
