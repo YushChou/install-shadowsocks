@@ -1,0 +1,2 @@
+# install-shadowsocks
+在CentOS7上一键安装shadowsocks服务
